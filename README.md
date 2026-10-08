@@ -9,7 +9,7 @@
 # Проект автотестов на Playwright
 
 ### Инструкция по запуску:
-1. Склонируйте репозиторий: `git clone <ссылка>`
+1. Склонируйте репозиторий: `git clone https://github.com/AndrewRay7/uchi-playwright-tests`
 2. Установите библиотеки: `npm install`
 3. Установите браузеры Playwright: `npx playwright install`
 4. Запустите тесты: `npx playwright test` или `npx playwright test --ui`
