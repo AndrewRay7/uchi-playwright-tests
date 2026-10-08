@@ -7,10 +7,8 @@ test.describe('Uchi.ru widget ', () => {
   test.beforeEach(async ({page}) => {
     widgetPage = new WidgetPage(page);
 
-    // open uchi.ru main page
     await page.goto('/');
 
-    // close cookies popup
     await page.click('._UCHI_COOKIE__button');
   });
 

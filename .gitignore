@@ -1,10 +1,16 @@
-
-# Playwright
+# Зависимости
 node_modules/
-test-results/
-playwright-report/
-blob-report/
-playwright/.cache/
 
-#IDE
-.idea
+# Отчеты и результаты тестов Playwright
+playwright-report/
+test-results/
+html-report/
+
+# Логи ошибок npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
